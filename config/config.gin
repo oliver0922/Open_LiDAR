@@ -1,0 +1,16 @@
+Maskgenerator.model_type = 'vit_h'
+Maskgenerator.checkpoint_path = '/root/code/open_lidar/sam_vit_h.pth'
+Maskgenerator.device = 'cuda'
+Maskgenerator.points_per_side = 32
+Maskgenerator.points_per_batch = 128
+Maskgenerator.pred_iou_thresh=0.88
+Maskgenerator.stability_score_thresh=0.95
+Maskgenerator.stability_score_offset=1.0
+Maskgenerator.box_nms_thresh = 0.7
+Maskgenerator.crop_n_layers = 0
+Maskgenerator.crop_nms_thresh = 0.7
+Maskgenerator.crop_overlap_ratio = 0.34133333333
+Maskgenerator.crop_n_points_downscale_factor = 1
+Maskgenerator.point_grids = None
+Maskgenerator.min_mask_region_area = 0
+Maskgenerator.output_mode = 'binary_mask'
